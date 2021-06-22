@@ -1,0 +1,41 @@
+body {
+	color: black;
+	background: #1ABC9C;
+	font-family: garamond;
+	font-weight: bold;
+	background-repeat: repeat;
+	
+}
+h1 {text-align: center; color: #808000;}
+h2 {font-family: times; color: #FF3300 ; text-align: center;text-decoration:underline; font-weight: 900;}
+h3 {font-family: garamond; color: #000000 ; text-align: center;}
+th {
+	color: #000000; background-color: #FFFFFF; border-width: 1px;
+	border-style: solid; border-color: black; font-size: 12pt; font-family: garamond; font-weight: bold;
+}
+td {
+	color: black;
+	background-color: #FFFFFF; border-width: 1px;
+	border-style: solid; border-color: black; font-size: 12pt; font-family: garamond; font-weight: bold;
+}
+.leftlink {
+	border:1px solid #FFFFFF; padding:5px;
+}
+.leftlink a {
+	display:inline-block; margin: 3px 0 px;
+	border-top: 1px solid #FFFFFF; border-left:1px solid #40E0D0;
+	border-right: 1px solid #FFFFFF; border-bottom: 1px solid #22476C; padding:4px 10px;
+	text-align:center; background-color: #9B59B6;
+	color: #FFFFFF; text-decoration: none; 
+}
+.leftlink a:link {
+	color:#FFFFFF;
+}
+.leftlink a:visited {
+	color: #FFFFFF;
+}
+.leftlink a:hover { display:inline-block; margin:3px 0px;
+	border-top:1px solid #22476C; border-left: 1px solid #22376C;
+	border-bottom:1px solid #40E0D0; border-right:1px solid #40E0D0; padding: 5px 9px 3px 11px;
+	text-align:center; background-color: #FFE4E1; color:#FF69B4; text-decoration: none;
+}
